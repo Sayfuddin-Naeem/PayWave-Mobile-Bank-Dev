@@ -13,6 +13,7 @@ export default defineConfig({
         transferMoney: resolve(__dirname, 'transfer-money.html'),
         getBonus: resolve(__dirname, 'get-bonus.html'),
         payBill: resolve(__dirname, 'pay-bill.html'),
+        transactions: resolve(__dirname, 'transactions.html'),
       },
     },
   },
