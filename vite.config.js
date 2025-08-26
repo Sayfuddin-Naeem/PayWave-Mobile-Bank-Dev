@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
@@ -7,7 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         home: resolve(__dirname, 'home.html'),
-        // contact: resolve(__dirname, 'contact.html'),
+        addMoney: resolve(__dirname, 'add-money.html'),
       },
     },
   },
