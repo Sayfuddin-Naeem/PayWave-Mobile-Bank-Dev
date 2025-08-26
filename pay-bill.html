@@ -13,7 +13,7 @@
      <!-- font awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Add Money - PayWave</title>
+    <title>Pay Bill - PayWave</title>
 </head>
 <body class="bg-bg-main">
     
@@ -81,9 +81,9 @@
         <!-- ========== Start features Section ========== -->
         
         <section class="grid grid-cols-3 m-9.5 gap-6">
-            <div class="border border-bg-btn bg-bg-feature rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
+            <div class="border border-dark-05 rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
                 <img src="./images/wallet1.png" alt="add money image">
-                <p class="text-bg-btn text-[1.4rem]">Add money</p>
+                <p class="text-dark-03 text-[1.4rem]">Add money</p>
             </div>
             <div class="border border-dark-05 rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
                 <img src="./images/send1.png" alt="cashout image">
@@ -97,9 +97,9 @@
                 <img src="./images/bonus1.png" alt="Get Bonus image">
                 <p class="text-dark-03 text-[1.4rem]">Get Bonus</p>
             </div>
-            <div class="border border-dark-05 rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
+            <div class="border border-bg-btn bg-bg-feature rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
                 <img src="./images/purse1.png" alt="Pay Bill image">
-                <p class="text-dark-03 text-[1.4rem]">Pay Bill</p>
+                <p class="text-bg-btn text-[1.4rem]">Pay Bill</p>
             </div>
             <div class="border border-dark-05 rounded-[1.2rem] flex flex-col items-center justify-center gap-3.5 px-4 py-8">
                 <img src="./images/transaction1.png" alt="Transaction image">
@@ -116,13 +116,13 @@
     
     <section class="mx-9.5 pb-26.5">
         <div class="mb-[1.6rem]">
-            <h2 class="text-dark-02 font-semibold text-3xl">Add Money</h2>
+            <h2 class="text-dark-02 font-semibold text-3xl">Pay Bill</h2>
         </div>
 
         <section class="flex flex-col items-center justify-center w-full">
             <form id="addMoneyForm" class="bg-white w-[40.2rem] p-13 rounded-[2.4rem]">
                 <fieldset class="fieldset mb-8">
-                    <legend class="fieldset-legend mb-4 font-medium text-dark-01">Select A Bank</legend>
+                    <legend class="fieldset-legend mb-4 font-medium text-dark-01">Select To Pay</legend>
                     <select id="selectBank" class="select select-xl text-dark-04 focus:border-sky-200 focus:outline focus:outline-sky-600 bg-bg-main w-full h-18 px-8 font-light rounded-full">
                         <option disabled selected>Select Bank</option>
                         <option value="">Janata Bank</option>
@@ -130,21 +130,21 @@
                 </fieldset>
 
                 <div class="flex flex-col gap-5 mb-8">
-                    <label for="accountNumber" class="label font-medium text-dark-01">Bank Account Number</label>
+                    <label for="accountNumber" class="label font-medium text-dark-01">Biller Account Number</label>
                     <input
                     type="text"
                     id="accountNumber"
                     class="input input-xl focus:border-sky-200 focus:outline focus:outline-sky-600 bg-bg-main w-full h-18 px-8 font-light rounded-full"
-                    placeholder="Enter 11 digit account number"
+                    placeholder="Enter account number"
                 />
                 </div>
                 <div class="flex flex-col gap-5 mb-8">
-                    <label for="addAmount" class="label font-medium text-dark-01">Amount to Add</label>
+                    <label for="payAmount" class="label font-medium text-dark-01">Amount to Pay</label>
                     <input
                     type="text"
-                    id="addAmount"
+                    id="payAmount"
                     class="input input-xl focus:border-sky-200 focus:outline focus:outline-sky-600 bg-bg-main w-full h-18 px-8 font-light rounded-full"
-                    placeholder="Enter amount to add"
+                    placeholder="Enter amount to pay"
                 />
                 </div>
                 <div class="flex flex-col gap-5 mb-10">
@@ -156,7 +156,7 @@
                     class="input input-xl focus:border-sky-200 focus:outline focus:outline-sky-600 bg-bg-main w-full h-18 px-8 font-light rounded-full"
                 />
                 </div>
-                <button class="btn btn-xl bg-bg-btn w-full h-20 text-[2rem] text-white rounded-full tracking-widest">Add Money</button>
+                <button class="btn btn-xl bg-bg-btn w-full h-20 text-[2rem] text-white rounded-full tracking-widest">Pay Now</button>
             </form>
         </section>
     </section>
