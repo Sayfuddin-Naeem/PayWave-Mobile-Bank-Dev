@@ -9,6 +9,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         home: resolve(__dirname, 'home.html'),
         addMoney: resolve(__dirname, 'add-money.html'),
+        cashout: resolve(__dirname, 'cashout.html'),
       },
     },
   },
