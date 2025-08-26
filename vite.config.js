@@ -11,6 +11,7 @@ export default defineConfig({
         addMoney: resolve(__dirname, 'add-money.html'),
         cashout: resolve(__dirname, 'cashout.html'),
         transferMoney: resolve(__dirname, 'transfer-money.html'),
+        getBonus: resolve(__dirname, 'get-bonus.html'),
       },
     },
   },
