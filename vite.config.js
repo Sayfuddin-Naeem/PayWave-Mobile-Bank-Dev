@@ -10,6 +10,7 @@ export default defineConfig({
         home: resolve(__dirname, 'home.html'),
         addMoney: resolve(__dirname, 'add-money.html'),
         cashout: resolve(__dirname, 'cashout.html'),
+        transferMoney: resolve(__dirname, 'transfer-money.html'),
       },
     },
   },
